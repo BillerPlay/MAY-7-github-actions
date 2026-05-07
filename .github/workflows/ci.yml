@@ -10,8 +10,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    env:
+      SERVER_PORT: ${{ vars.SERVER_PORT }}
+      SPRING_PROFILES_ACTIVE: ${{ secrets.APP_ENV }}
     steps:
+      - run: echo ${{ secrets.APP_ENV }}
       - name: Checkout the code
         uses: actions/checkout@v4
 
@@ -45,7 +48,11 @@ jobs:
       fail-fast: false
       matrix:
         java: [17, 21]
+    env:
+      SERVER_PORT: ${{ vars.SERVER_PORT }}
+      SPRING_PROFILES_ACTIVE: ${{ secrets.APP_ENV }}
     steps:
+      - run: echo ${{ secrets.APP_ENV }}
       - name: Checkout the code
         uses: actions/checkout@v4
 
