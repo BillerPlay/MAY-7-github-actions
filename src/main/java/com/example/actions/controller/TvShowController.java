@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/tvshowsdsadas")
+@RequestMapping("/tvshows")
 public class TvShowController {
 
     private final TvShowService tvShowService;
