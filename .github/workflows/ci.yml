@@ -6,7 +6,8 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
-
+  schedule:
+    - cron: '0 6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -111,3 +112,7 @@ jobs:
 
       - name: Run tests
         run: mvn test
+
+      - name: Scheduled nightly run – all tests passed
+        if: github.event_name == 'schedule'
+        run: echo "Scheduled nightly run – all tests passed"
