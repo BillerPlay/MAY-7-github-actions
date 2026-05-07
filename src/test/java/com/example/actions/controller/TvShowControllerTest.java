@@ -44,7 +44,7 @@ class TvShowControllerTest {
         mockMvc.perform(get("/tvshows"))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.length()").value(2))
-                .andExpect(jsonPath("$[0].title").value("Breaking Bad"))
+                .andExpect(jsonPath("$[0].title").value("Wrong Title"))
                 .andExpect(jsonPath("$[1].title").value("The Office"));
     }
 
