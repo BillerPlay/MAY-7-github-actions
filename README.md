@@ -10,6 +10,8 @@
 ![screenshot1](https://github.com/BillerPlay/MAY-7-github-actions/raw/main/screenshots/Special%20added%20wrong%20test.PNG)
 ![screenshot2](https://github.com/BillerPlay/MAY-7-github-actions/raw/main/screenshots/passed%20test%20after%20reverting%20changes.PNG)
 ![screenshot3](https://github.com/BillerPlay/MAY-7-github-actions/raw/main/screenshots/cache%20restored%20from%20key.PNG)
+
+some changes
 ## Lab Overview
 
 In this lab you will create a Continuous Integration pipeline for the **actions** project — a Spring Boot REST API backed by an H2 in-memory database using GitHub Actions. You will write a workflow file that automatically builds and tests the application every time code is pushed to `main` or a pull request is opened. You will watch the pipeline succeed, intentionally break it, fix it, and add a manual trigger. By the end, your repository will have a working CI pipeline that catches broken code before it reaches the main branch.
