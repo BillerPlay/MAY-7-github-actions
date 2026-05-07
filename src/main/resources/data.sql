@@ -1,0 +1,13 @@
+INSERT INTO tv_show (title, genre, release_year) VALUES ('Breaking Bad', 'Drama', 2008);
+INSERT INTO tv_show (title, genre, release_year) VALUES ('The Office', 'Comedy', 2005);
+INSERT INTO tv_show (title, genre, release_year) VALUES ('Game of Thrones', 'Fantasy', 2011);
+INSERT INTO tv_show (title, genre, release_year) VALUES ('Stranger Things', 'Sci-Fi', 2016);
+INSERT INTO tv_show (title, genre, release_year) VALUES ('The Wire', 'Drama', 2002);
+INSERT INTO tv_show (title, genre, release_year) VALUES ('The Sopranos', 'Drama', 1999);
+INSERT INTO tv_show (title, genre, release_year) VALUES ('Better Call Saul', 'Drama', 2015);
+INSERT INTO tv_show (title, genre, release_year) VALUES ('Dark', 'Sci-Fi', 2017);
+INSERT INTO tv_show (title, genre, release_year) VALUES ('Severance', 'Thriller', 2022);
+INSERT INTO tv_show (title, genre, release_year) VALUES ('The Last of Us', 'Drama', 2023);
+INSERT INTO tv_show (title, genre, release_year) VALUES ('Succession', 'Drama', 2018);
+INSERT INTO tv_show (title, genre, release_year) VALUES ('Black Mirror', 'Sci-Fi', 2011);
+INSERT INTO tv_show (title, genre, release_year) VALUES ('Peaky Blinders', 'Crime', 2013);
